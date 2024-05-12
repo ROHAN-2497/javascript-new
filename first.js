@@ -1,4 +1,6 @@
-let newArray = [2, 4, 5, 6];
-newArray.forEach((square) => {
-  console.log(square * square);
+let marks = [97, 64, 32, 49, 99, 96, 86];
+
+let highestMarks = marks.filter((val) => {
+  return val > 90;
 });
+console.log(highestMarks);
