@@ -1,6 +1,15 @@
-let marks = [97, 64, 32, 49, 99, 96, 86];
+let n = prompt("enter the number");
+arr = [];
+for (let i = 1; i <= n; i++) {
+  arr[i - 1] = i;
+}
 
-let highestMarks = marks.filter((val) => {
-  return val > 90;
+let sum = arr.reduce((prev, curr) => {
+  return prev + curr;
 });
-console.log(highestMarks);
+console.log(` Sum ${sum}`);
+
+let factorial = arr.reduce((prev, curr) => {
+  return prev * curr;
+});
+console.log(`Factorial ${factorial}`);
