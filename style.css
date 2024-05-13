@@ -1,6 +1,9 @@
 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: black;
     background-color: aqua;
     padding: 4px;
-    margin-inline-end: auto;
+
 }
