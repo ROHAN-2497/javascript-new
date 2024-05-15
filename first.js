@@ -1,6 +1,8 @@
-let divs = document.querySelectorAll(".box");
-let idx = 1;
-for (const div of divs) {
-  div.innerText = `New Unique value ${idx}`;
-  idx++;
-}
+let newBtn = document.createElement("button");
+newBtn.innerText = "newBtn!";
+console.log(newBtn);
+// let div = document.querySelector("div");
+// div.append(newBtn);
+
+let div = document.querySelector("div");
+div.prepend(newBtn);
