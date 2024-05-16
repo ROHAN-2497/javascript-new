@@ -1,8 +1,3 @@
-let newBtn = document.createElement("button");
-newBtn.innerText = "newBtn!";
-console.log(newBtn);
-// let div = document.querySelector("div");
-// div.append(newBtn);
-
-let div = document.querySelector("div");
-div.prepend(newBtn);
+let newHeading = document.createElement("h1");
+newHeading.innerHTML = "<i>Hi, iam a Developer</i>";
+document.querySelector("body").prepend(newHeading);
