@@ -1,6 +1,7 @@
-.box {
-  background-color: aqua;
-  width: 200px;
-  height: 200px;
-  padding: 4px;
+.para {
+  color: aqua;
+}
+
+.newClass {
+  background-color: green;
 }
