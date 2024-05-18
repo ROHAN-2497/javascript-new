@@ -1,10 +1,8 @@
-let btn = document.createElement("button");
-btn.innerText = "Click me!";
-btn.style.color = "white";
-btn.style.backgroundColor = "red";
-document.querySelector("body").prepend(btn);
+let btn1 = document.querySelector("#btn1");
 
-// Qs2
-
-let parar = document.querySelector("p");
-parar.classList.add("para", "newClass");
+let btn1.onC = () => {
+  console.log("btn clicked");
+  let a = 24;
+  a++;
+  console.log(a);
+};
