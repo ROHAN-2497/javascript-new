@@ -1,12 +1,14 @@
-let btn1 = document.querySelector("#btn1");
-btn1.onclick = () => {
-  console.log("object");
-  let a = 25;
-  a++;
-  console.log(a);
-};
+let toggleBtn = document.querySelector("#toggleBtn");
 
-let div = document.querySelector("div");
-div.onmouseover = () => {
-  console.log("object");
-};
+let currentMood = "light";
+
+toggleBtn.addEventListener("click", () => {
+  if (currentMood === "light") {
+    currentMood = "dark";
+    document.querySelector("body").style.backgroundColor = "black";
+  } else {
+    currentMood = "light";
+    document.querySelector("body").style.backgroundColor = "white";
+  }
+  console.log(currentMood);
+});
