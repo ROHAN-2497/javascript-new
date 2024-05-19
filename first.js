@@ -1,14 +1,17 @@
-let toggleBtn = document.querySelector("#toggleBtn");
+let toggle = document.querySelector("#overtoggl");
+let body = document.querySelector("body");
 
-let currentMood = "light";
+let mouseOver = "TextBig";
 
-toggleBtn.addEventListener("click", () => {
-  if (currentMood === "light") {
-    currentMood = "dark";
-    document.querySelector("body").style.backgroundColor = "black";
+toggle.addEventListener("mouseover", () => {
+  if (mouseOver === "TextBig") {
+    mouseOver = "Small";
+    body.classList.add("TextBig");
+    body.classList.remove("Small");
   } else {
-    currentMood = "light";
-    document.querySelector("body").style.backgroundColor = "white";
+    mouseOver = "TextBig";
+    body.classList.add("Small");
+    body.classList.remove("TextBig");
   }
-  console.log(currentMood);
+  console.log(mouseOver);
 });

@@ -1,7 +1,6 @@
-.para {
-  color: aqua;
+.TextBig {
+  font-size: 30px;
 }
-
-.newClass {
-  background-color: green;
+.Small {
+  font-size: 20px;
 }
