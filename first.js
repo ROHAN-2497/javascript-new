@@ -1,5 +1,5 @@
 let toggle = document.querySelector("#overtoggl");
-let body = document.querySelector("body");
+let body = document.querySelector(".para");
 
 let mouseOver = "TextBig";
 
