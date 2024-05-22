@@ -42,3 +42,23 @@ body {
   color: white;
   font-size: 1.25rem;
 }
+
+#new-btn {
+  padding: 1rem;
+  background-color: #191913;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  font-size: 1.25rem;
+}
+
+#msg {
+  color: #ffffc7;
+  font-style: 5vmin;
+}
+.msg-container {
+  height: 30vmin;
+}
+.hide {
+  display: none;
+}
