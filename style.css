@@ -13,6 +13,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+.title {
+  margin-top: 4vmin;
+  font-style: italic;
+  font-size: 8vmin;
+}
 
 .game {
   height: 60vmin;
@@ -54,10 +59,16 @@ body {
 
 #msg {
   color: #ffffc7;
-  font-style: 5vmin;
+  font-size: 5vmin;
+  margin: 20px;
 }
 .msg-container {
-  height: 30vmin;
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
 }
 .hide {
   display: none;
